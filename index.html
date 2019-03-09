@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star Wars Hangman</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<head>
+	<div class="head">
+		<img class="empireImage" src="assets/images/empire.gif">
+		<h1>STARWARS HANGMAN</h1>
+		<img class="rebelImage" src="assets/images/rebel.gif">
+		<div class="clear"></div>
+	</div>
+	</head>
+	<main class="flexbox">
+		<div class="col leftContent">
+			<div class="imageChange"><img src="assets/images/image2.gif" id="randImage"></div>
+		</div>
+		<div class="col rightContent">
+			<br>
+			<h2><a href="#" onclick="start()">Click here to start or reset, young padawan.</a></h2>
+			<br>
+			<h2>Wins : <span id="wins"></span></h2>
+			<br>
+			<h2>Current Word</h2>
+			<br>
+			<h2><span id = "answer"></span></h2>
+			<br>
+			<h2>Number of Guesses Remaining</h2>
+			<br>
+			<h2><span id="count"></span></h2>
+			<br>
+			<h2>Letters Already Guessed</h2>
+			<br>
+			<h2><span id ="letters"></span></h2>
+			<br>
+			<br>
+		</div>
+		<div class="clear"></div>
+	</main>
+	<audio autoplay="" loop="" id="music"><source src="" type="audio/mpeg"></audio>
+</div>
+
+
+
+</body>
+</html>

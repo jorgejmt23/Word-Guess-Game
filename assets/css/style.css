@@ -1,0 +1,99 @@
+html {
+    background: url('../images/Background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@font-face {
+	font-family: stjedise;
+	src: url(../fonts/stjedise/STJEDISE.TTF);
+}
+@font-face {
+	font-family: anakinmono;
+	src: url(../fonts/anakinmono/anakinmono.ttf);
+}
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+h1 {
+	font-family: stjedise;
+	font-size: 300%;
+	color: #fff;
+	float: left;
+	margin: 5% 7%;
+}
+h2 {
+	font-family: anakinmono;
+	font-size: 20px;
+	color: yellow;
+	text-align: center;
+}
+a:visited {
+	color: yellow;
+}
+.rebelImage {
+	width: 15%;
+	height: auto;
+	float: right;
+}
+.empireImage {
+	width: 15%;
+	height: auto;
+	float: left;
+}
+.head {
+	margin-top: 10px;
+	width: 100%;
+}
+.clear {
+	clear: both;
+}
+main {
+	width: 80%;
+	margin: 20px 10%;
+	border: double 5px yellow;
+}
+}
+.leftContent {
+	border-right: double 5px yellow;
+}
+.imageChange {
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+	margin-top: 8%;
+}
+.imageChange img {
+	width: 100%;
+	height: auto;
+}
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  flex: 1;	
+}
+.flexbox > :nth-child(1) { order: 1; }
+.flexbox > :nth-child(2) { order: 3; }
+.flexbox > :nth-child(3) { order: 2; }
+.flexbox > :nth-child(4) { order: 4; }
+
+@media screen and (max-width: 979px) and (min-width: 768px) {
+	h1 {
+		font-size: 238%;
+		color: #fff;
+		float: left;
+		margin: 5% 7%;
+	}
+}
+@media screen and (max-width: 767px) {
+	h1 {
+		font-size: 142%;
+		color: #fff;
+		float: left;
+		margin: 5% 7%;
+	}
+}
